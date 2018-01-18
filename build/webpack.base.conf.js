@@ -22,6 +22,8 @@ module.exports = {
       ? config.build.assetsPublicPath
       : config.dev.assetsPublicPath
   },
+
+  //配置项
   resolve: {
     extensions: ['.js', '.vue', '.json'],
     alias: {
@@ -29,6 +31,8 @@ module.exports = {
       '@': resolve('src'),
     }
   },
+
+
   module: {
     rules: [
       {

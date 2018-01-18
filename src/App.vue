@@ -1,6 +1,7 @@
 <template>
-  <div>
-    根目录
+  <div id="app">
+    
+      <router-view></router-view>
   </div>
 </template>
 
@@ -11,5 +12,11 @@ export default {
 </script>
 
 <style>
-
+  html,body,#app{
+    height: 100%;
+  }
+  a{
+    text-decoration:none;
+     color: #2a72c5;
+  }
 </style>
