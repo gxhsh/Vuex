@@ -35,6 +35,9 @@ axios.defaults.withCredentials=true; // 浏览器有个安全机制, 如果是�
 Vue.prototype.$http = axios;
 Vue.prototype.$api=api;
 
+// 导入自己封装的vue插件
+import MyFilter from './filter'
+Vue.use(MyFilter);
 
 
 
